@@ -8,7 +8,7 @@ export const Logout = () => {
         navigate("/");
     }
     return(
-        <div>
+        <div className="container mt-5 login" >
             <h2>Kijelentkezés</h2>
             <button onClick={handleLogout}>Kijelentkezés</button>
         </div>

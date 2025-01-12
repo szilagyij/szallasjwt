@@ -5,6 +5,7 @@ import { Login } from './Login';
 import { SzallasList } from './SzallasList';
 import { Logout } from './Logout';
 
+
 export const App = () => {
   return (
     <BrowserRouter>
